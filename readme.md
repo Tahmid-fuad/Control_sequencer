@@ -20,22 +20,34 @@ The work demonstrates fundamental principles of computer architecture, including
 
 ## System Architecture
 
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig1.jpg)
+
 ### Major Components
 
 The system consists of the following major components, each implemented as individual circuit blocks in Logisim:
 
 - **General Purpose Register (GPR):** Temporarily stores and manipulates data during execution.
-
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig2.jpg)
 - **Arithmetic Logic Unit (ALU):** Performs basic arithmetic and logical operations such as addition and subtraction.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig3.jpg)
 - **Instruction Register (IR):** Holds the current instruction fetched from memory, including opcode and operand.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig4.jpg)
 - **Program Counter (PC):** Keeps track of the address of the next instruction to be executed.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig5.jpg)
 - **6-to-64 Decoder:** Converts a 6-bit binary number to one-hot encoding for memory location selection.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig6.jpg)
 - **Memory (SRAM):** Stores machine code and data for the microprocessor.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig7.jpg)
 - **Ring Counter:** Generates timing signals for the fetch-decode-execute cycle.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig8.jpg)
 - **Control Sequencer:** Manages the flow of data and control signals based on instruction and timing.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig9_1.jpg)
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig9_2.jpg)
 - **Barrel Shifter and Ring Rotator:** Performs logical shifts and bitwise rotations on data.
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig10.jpg)
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig11.jpg)
 - **RAM Auto-Loader:** Loads machine code directly into SRAM without manual intervention.
-
+![](https://github.com/Tahmid-fuad/Control_sequencer/blob/master/Images/fig12.jpg)
 ### Datapath & Control Path
 
 The datapath and control sequencer manage the flow of data and control signals between the components of the system. The control sequencer synchronizes the operations of the microprocessor, ensuring that instructions are fetched, decoded, and executed in sequence.
@@ -141,9 +153,7 @@ Key challenges faced during the project include:
 
 ### Demonstration Video
 
-[![SAP-1 Microprocessor Demonstration](#)](https://youtu.be/mreEUxgNvG8)
-
-*Placeholder for video link. Replace with actual video URL.*
+[![SAP-1 Microprocessor Demonstration](https://img.youtube.com/vi/mreEUxgNvG8/0.jpg)](https://www.youtube.com/watch?v=mreEUxgNvG8)
 
 ### Project Repository
 
