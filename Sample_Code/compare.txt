@@ -1,0 +1,15 @@
+LDA 13d
+CMP 14d
+JNZ 6d
+LDI
+001h
+HLT
+JNC ah
+LDI 
+002h
+HLT
+LDI 
+004h
+HLT
+055h
+056h
